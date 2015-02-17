@@ -19,4 +19,4 @@
   
 #Now you can create the graphs of the data by running Cinderella.C. This will automatically save the .png files of the all the graphs.
 
-  $root -l .x Cinderella.C
+  $root -l Cinderella.C
