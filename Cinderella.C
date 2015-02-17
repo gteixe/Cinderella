@@ -42,7 +42,7 @@
 	// Format histogram h3
 	// Declare a variable sizeSum and loop through the entries to add all the sizes of the datasets
 	// Create a string that calculates the occupancy of each dataset and fill the histogram with those values
-	h3->GetXaxis()->SetTitle("Ocuppancy per Dataset [Percentage]");
+	h3->GetXaxis()->SetTitle("Occupancy per Dataset");
 	h3->GetYaxis()->SetTitle("Frequency");
 	h3->SetStats(0);
 	float sizeSum = 0;
@@ -72,7 +72,7 @@
 	// Loop through the entries, adding the sizes of those datasets whose incache value is 1
 	// Create a string that calculates the occupancy of each datasets whose incache value is 1
 	// and fills h5 with said values
-	h5->GetXaxis()->SetTitle("Occupancy per Dataset in Cache [Percentage]");
+	h5->GetXaxis()->SetTitle("Occupancy per Dataset in Cache");
 	h5->GetYaxis()->SetTitle("Frequency");
  	h5->SetStats(0);
  	float inCacheSum = 0;
